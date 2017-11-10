@@ -1,4 +1,6 @@
 # status-board-example
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/jameswlane/status-board-example.svg)](https://greenkeeper.io/)
 [![Build Status](https://travis-ci.org/jameswlane/status-board-example.svg?branch=master)](https://travis-ci.org/jameswlane/status-board-example)
 [![dependencies Status](https://david-dm.org/jameswlane/status-board-example/status.svg)](https://david-dm.org/jameswlane/status-board-example)
 [![devDependencies Status](https://david-dm.org/jameswlane/status-board-example/dev-status.svg)](https://david-dm.org/jameswlane/status-board-example?type=dev)
