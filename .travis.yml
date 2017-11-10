@@ -14,6 +14,9 @@ cache:
   - "~/.npm"
 before_script:
 - yarn global add npmvet david nsp depcheck types-checker
+- cd packages/demo/
+- yarn install --pure-lockfile
+- cd ../../
 - greenkeeper-lockfile-update
 after_script:
 - greenkeeper-lockfile-upload
