@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Google Calendar onInit to match snapshot 1`] = `[Function]`;
+
+exports[`Google Calendar onRun to match snapshot 1`] = `[Function]`;

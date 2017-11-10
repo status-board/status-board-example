@@ -6,4 +6,6 @@
 [![devDependencies Status](https://david-dm.org/jameswlane/status-board-example/dev-status.svg)](https://david-dm.org/jameswlane/status-board-example?type=dev)
 [![Coverage Status](https://coveralls.io/repos/github/jameswlane/status-board-example/badge.svg?branch=master)](https://coveralls.io/github/jameswlane/status-board-example?branch=master)
 
+This is the README for my dashboard. Any info I need to pass on to other users will go here.
+
 ## License

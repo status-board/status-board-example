@@ -6,28 +6,42 @@
   "author": "James W. Lane <james.w.lane@mac.com>",
   "license": "MIT",
   "scripts": {
+    "start": "node start",
     "test": "jest --coverage",
     "test:watch": "jest --watch",
-    "ts:build": "tsc",
-    "ts:watch": "tsc -w",
-    "tslint": "tslint --config tslint.json --project tsconfig.json \"src/**/*.ts\" \"test/**/*.test.ts'\"",
-    "tslint:fix": "tslint --config tslint.json --project tsconfig.json --fix \"src/**/*.ts\" \"test/**/*.test.ts'\"",
-    "verify": "yarn verify:npmvet && yarn verify:david && yarn verify:nsp && yarn tslint && yarn test",
+    "eslint": "eslint \"src/**/*.ts\" \"test/**/*.test.ts'\"",
+    "eslint:fix": "eslint --fix \"src/**/*.ts\" \"test/**/*.test.ts'\"",
+    "verify": "yarn verify:npmvet && yarn verify:david && yarn verify:nsp && yarn eslint && yarn test",
     "verify:npmvet": "npmvet --renderer ci --strict",
     "verify:david": "david",
     "verify:nsp": "nsp check --output summary",
     "verify:check": "depcheck --ignores=@types/enzyme,@types/jest",
-    "setup": "npm i -g npmvet david nsp depcheck types-checker commitizen"
+    "setup": "npm i -g npmvet david nsp depcheck commitizen"
   },
   "keywords": [
-    "react"
+    "example"
   ],
   "bugs": {
-    "url": "https://github.com/jameswlane/status-board-cli/issues"
+    "url": "https://github.com/jameswlane/status-board-example/issues"
   },
-  "homepage": "https://github.com/jameswlane/status-board-cli#readme",
-  "dependencies": {},
-  "devDependencies": {},
+  "homepage": "https://github.com/jameswlane/status-board-example#readme",
+  "dependencies": {
+    "status-board": "1.0.0"
+  },
+  "devDependencies": {
+    "coveralls": "^3.0.0",
+    "cz-conventional-changelog": "^2.1.0",
+    "eslint": "4.10.0",
+    "eslint-config-airbnb-base": "12.1.0",
+    "eslint-plugin-import": "2.8.0",
+    "jest": "21.2.1"
+  },
+  "private": true,
+  "description": "A dashboard built for status board",
+  "engines": {
+    "npm": "~2.0.0",
+    "node": ">=0.10"
+  },
   "config": {
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
