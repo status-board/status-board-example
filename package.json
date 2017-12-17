@@ -26,7 +26,7 @@
   },
   "homepage": "https://github.com/jameswlane/status-board-example#readme",
   "dependencies": {
-    "status-board": "1.1.12"
+    "status-board": "1.1.13"
   },
   "devDependencies": {
     "coveralls": "3.0.0",
