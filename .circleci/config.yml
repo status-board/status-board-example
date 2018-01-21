@@ -52,13 +52,9 @@ test_steps: &test_steps
     - run:
         name: Install demo dashboard's packages
         command: |
-          ls
           cd packages/demo
-          ls
           yarn install --ignore-engines --frozen-lockfile
-          ls
           cd ../..
-          ls
     - run:
         name: Install Local Packages
         command: yarn install --ignore-engines --frozen-lockfile
