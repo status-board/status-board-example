@@ -50,14 +50,15 @@ test_steps: &test_steps
     - restore_cache:
         key: node-modules-{{ .Branch }}-{{ checksum "yarn.lock" }}
     - run:
-        name: Change directory to demo dashboard
-        command: cd packages/demo
-    - run:
         name: Install demo dashboard's packages
-        command: yarn install --ignore-engines --frozen-lockfile
-    - run:
-        name: Change directory to root
-        command: cd ../..
+        command: |
+          ls
+          cd packages/demo
+          ls
+          yarn install --ignore-engines --frozen-lockfile
+          ls
+          cd ../..
+          ls
     - run:
         name: Install Local Packages
         command: yarn install --ignore-engines --frozen-lockfile
