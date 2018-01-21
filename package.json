@@ -10,6 +10,7 @@
     "test": "jest --coverage --maxWorkers=4",
     "test:ci": "jest --maxWorkers=4",
     "test:coverage:ci": "jest --coverage --maxWorkers=4",
+    "test:coverage:codecov": "codecov",
     "test:watch": "jest --watch",
     "eslint": "eslint \"src/**/*.ts\" \"test/**/*.test.ts'\"",
     "eslint:fix": "eslint --fix \"src/**/*.ts\" \"test/**/*.test.ts'\"",
@@ -32,6 +33,7 @@
     "status-board": "1.1.22"
   },
   "devDependencies": {
+    "codecov": "^3.0.0",
     "coveralls": "3.0.0",
     "cz-conventional-changelog": "2.1.0",
     "eslint": "4.16.0",
