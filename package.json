@@ -30,7 +30,7 @@
   },
   "homepage": "https://github.com/jameswlane/status-board-example#readme",
   "dependencies": {
-    "status-board": "1.1.26"
+    "status-board": "1.1.27"
   },
   "devDependencies": {
     "codecov": "3.0.0",
