@@ -965,9 +965,9 @@ ee-first@1.1.1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/ee-first/-/ee-first-1.1.1.tgz#590c61156b0ae2f4f0255732a158b266bc56b21d"
 
-ejs@2.5.7:
-  version "2.5.7"
-  resolved "https://registry.yarnpkg.com/ejs/-/ejs-2.5.7.tgz#cc872c168880ae3c7189762fd5ffc00896c9518a"
+ejs@2.5.8:
+  version "2.5.8"
+  resolved "https://registry.yarnpkg.com/ejs/-/ejs-2.5.8.tgz#2ab6954619f225e6193b7ac5f7c39c48fefe4380"
 
 enabled@1.0.x:
   version "1.0.2"
@@ -3588,9 +3588,9 @@ stack-utils@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/stack-utils/-/stack-utils-1.0.1.tgz#d4f33ab54e8e38778b0ca5cfd3b3afb12db68620"
 
-status-board@1.1.33:
-  version "1.1.33"
-  resolved "https://registry.yarnpkg.com/status-board/-/status-board-1.1.33.tgz#e7d65aa6d2d324b37439adfa9de8d5507bad03bf"
+status-board@1.1.34:
+  version "1.1.34"
+  resolved "https://registry.yarnpkg.com/status-board/-/status-board-1.1.34.tgz#73b37c2a2dbfb55e7fd95ea63032f857bfbcd351"
   dependencies:
     async "2.6.0"
     body-parser "1.18.2"
@@ -3598,7 +3598,7 @@ status-board@1.1.33:
     compression "1.7.2"
     css "2.2.1"
     debug "3.1.0"
-    ejs "2.5.7"
+    ejs "2.5.8"
     errorhandler "1.5.0"
     express "4.16.3"
     method-override "2.3.10"
