@@ -37,7 +37,7 @@
     "picture": {
       "interval": 60000,
       "widgetTitle": "Nat Geo Picture of the Day",
-      "url": "http://photography.nationalgeographic.com/photography/photo-of-the-day"
+      "url": "http://www.nationalgeographic.com/photography/photo-of-the-day/_jcr_content/.gallery.json"
     },
 
     "quotes-famous": {
