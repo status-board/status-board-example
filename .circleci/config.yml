@@ -178,9 +178,6 @@ workflows:
       - test-node-6:
           requires:
             - eslint
-      - test-node-7:
-          requires:
-            - eslint
       - test-node-8:
           requires:
             - eslint
