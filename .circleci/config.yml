@@ -195,11 +195,13 @@ workflows:
             - eslint
       - coverage:
           requires:
+            - coverage
+      - deploy:
+          requires:
             - test-node-6
             - test-node-7
             - test-node-8
             - test-node-9
-      - deploy:
           filters:
             branches:
               only:
