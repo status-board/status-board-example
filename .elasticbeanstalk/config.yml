@@ -1,8 +1,18 @@
 branch-defaults:
   master:
     environment: status-board-example-prod
+    group_suffix: null
 global:
   application_name: status-board-example-prod
+  branch: null
+  default_ec2_keyname: null
   default_platform: 64bit Amazon Linux 2017.09 v4.4.5 running Node.js
   default_region: us-east-1
+  include_git_submodules: true
+  instance_profile: null
+  platform_name: null
+  platform_version: null
+  profile: null
+  repository: null
   sc: git
+  workspace_type: Application
