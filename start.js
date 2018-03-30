@@ -4,7 +4,7 @@ const statusBoard = require('status-board').default;
 statusBoard(
   {
     port: process.env.PORT || 3000,
-    install: false,
+    install: true,
     // filters: {
     // jobFilter: 'picture',
     // jobFilter: 'pic(.*)day',
