@@ -109,12 +109,6 @@ jobs:
       - image: circleci/node:6
     <<: *test_steps
 
-  test-node-7:
-    working_directory: ~/status-board-example
-    docker:
-      - image: circleci/node:7
-    <<: *test_steps
-
   test-node-8:
     <<: *docker_defaults
     <<: *test_steps
@@ -195,13 +189,12 @@ workflows:
             - eslint
       - coverage:
           requires:
-            - coverage
-      - deploy:
-          requires:
             - test-node-6
-            - test-node-7
             - test-node-8
             - test-node-9
+      - deploy:
+          requires:
+            - coverage
           filters:
             branches:
               only:
