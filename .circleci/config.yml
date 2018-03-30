@@ -151,25 +151,21 @@ jobs:
       - store_test_results:
           path: reports
 
-#  build-typescript:
-#    <<: *docker_defaults
-#    steps:
-#      - *attach_workspace
-#      - run:
-#          name: Build JavaScript
-#          command: yarn ts:build
-#      - persist_to_workspace:
-#          root: ~/project
-#          paths:
-#            - status-board-example
-#
-#  semantic-release:
-#    <<: *docker_defaults
-#    steps:
-#      - *attach_workspace
-#      - run:
-#          name: Semantic Release
-#          command: yarn semantic-release
+  deploy:
+    <<: *docker_defaults
+    steps:
+      - *attach_workspace
+      - *install_demo_dashboard_packages
+      - run:
+          name: Installing deployment dependencies
+          working_directory: /
+          command: |
+            sudo apt-get -y -qq update
+            sudo apt-get install python-pip python-dev build-essential
+            sudo pip install awsebcli --upgrade
+      - run:
+          name: Deploying
+          command: eb deploy status-board-example-prod
 
 workflows:
   version: 2
@@ -203,9 +199,8 @@ workflows:
             - test-node-7
             - test-node-8
             - test-node-9
-#      - build-typescript:
-#          requires:
-#            - coverage
-#      - semantic-release:
-#          requires:
-#            - build-typescript
+      - deploy:
+          filters:
+            branches:
+              only:
+                - master

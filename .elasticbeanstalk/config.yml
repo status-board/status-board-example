@@ -1,0 +1,8 @@
+branch-defaults:
+  master:
+    environment: $CIRCLE_BRANCH-status-board-example
+global:
+  application_name: status-board-example-prod
+  default_platform: 64bit Amazon Linux 2017.09 v4.4.5 running Node.js
+  default_region: eu-east-1
+  sc: git
