@@ -8,4 +8,7 @@
 
 This is the README for my dashboard. Any info I need to pass on to other users will go here.
 
+[Live Example / Demo](http://status-board.experimentwith.com)
+
+
 ## License
