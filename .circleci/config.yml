@@ -148,7 +148,7 @@ jobs:
             sudo pip install awsebcli --upgrade
       - run:
           name: Deploying
-          command: eb deploy --profile default
+          command: eb deploy status-board-example-prod
 
 workflows:
   version: 2
