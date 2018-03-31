@@ -1,6 +1,6 @@
 {
   "title": "My first dashboard",
-  "titleVisible": false,
+  "titleVisible": true,
 
   "description": "My first dashboard description goes here",
 
