@@ -1,20 +1,22 @@
 "use strict";
-const statusBoard = require('status-board').default;
+var statusBoard = require('status-board').default;
+var options = {
+  port: process.env.PORT || 3000,
+  install: false
+  // filters: {
+  // jobFilter: 'picture',
+  // jobFilter: 'pic(.*)day',
+  // dashboardFilter: 'myfirst',
+  // dashboardFilter: 'my(.*)board',
+  // },
+};
 
-statusBoard(
-  {
-    port: process.env.PORT || 3000,
-    install: false,
-    // filters: {
-    // jobFilter: 'picture',
-    // jobFilter: 'pic(.*)day',
-    // dashboardFilter: 'myfirst',
-    // dashboardFilter: 'my(.*)board',
-    // },
-  },
-  function (err) {
-    if (err) {
-      throw err;
-    }
+function callback(err) {
+  if (err) {
+    throw err;
   }
-);
+}
+
+console.log('options', options);
+
+statusBoard(options, callback);
