@@ -9,14 +9,6 @@ attach_workspace: &attach_workspace
   attach_workspace:
       at: ~/project
 
-install_demo_dashboard_packages: &install_demo_dashboard_packages
-  run:
-    name: Install demo dashboard's packages
-    command: |
-      cd packages/demo
-      yarn install --ignore-engines
-      cd ../..
-
 install_steps: &install_steps
   steps:
     - checkout
@@ -57,7 +49,6 @@ test_steps: &test_steps
     - checkout
     - restore_cache:
         key: node-modules-{{ .Branch }}-{{ checksum "yarn.lock" }}
-    - *install_demo_dashboard_packages
     - run:
         name: Install Local Packages
         command: yarn install --ignore-engines
@@ -123,7 +114,6 @@ jobs:
     <<: *docker_defaults
     steps:
       - *attach_workspace
-      - *install_demo_dashboard_packages
       - run:
           name: Setup Code Climate test-reporter
           command: |
@@ -149,7 +139,6 @@ jobs:
     <<: *docker_defaults
     steps:
       - *attach_workspace
-      - *install_demo_dashboard_packages
       - run:
           name: Installing deployment dependencies
           working_directory: /
