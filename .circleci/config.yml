@@ -171,26 +171,35 @@ workflows:
             - install
       - nsp:
           requires:
-            - npmvet
+            - install
       - eslint:
           requires:
-            - nsp
+            - install
       - test-node-6:
           requires:
+            - npmvet
+            - nsp
             - eslint
       - test-node-8:
           requires:
+            - npmvet
+            - nsp
             - eslint
       - test-node-9:
           requires:
+            - npmvet
+            - nsp
             - eslint
       - coverage:
+          requires:
+            - npmvet
+            - nsp
+            - eslint
+      - deploy:
           requires:
             - test-node-6
             - test-node-8
             - test-node-9
-      - deploy:
-          requires:
             - coverage
           filters:
             branches:
