@@ -148,7 +148,9 @@ jobs:
             sudo pip install awsebcli --upgrade
       - run:
           name: Deploying
-          command: eb deploy status-board-example-prod
+          command: |
+            AWS_ACCESS_KEY_ID="$(echo -e "${AWS_ACCESS_KEY_ID}" | tr -d '[:space:]')"
+            eb deploy status-board-example-prod
 
 workflows:
   version: 2
