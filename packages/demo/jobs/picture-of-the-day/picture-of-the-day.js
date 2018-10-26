@@ -6,7 +6,7 @@ module.exports = {
         jobCallback(errMsg);
       } else {
         var result = jsonBody.items[0];
-        jobCallback(null, { imageSrc: result.url + result.sizes["500"], title: config.widgetTitle });
+        jobCallback(null, { imageSrc: result.url, title: config.widgetTitle });
       }
     });
   }
