@@ -12,10 +12,10 @@
     "test:coverage:ci": "jest --coverage --maxWorkers=4",
     "test:coverage:codecov": "codecov",
     "test:watch": "jest --watch",
-    "eslint": "eslint \"src/**/*.ts\" \"test/**/*.test.ts'\"",
-    "eslint:fix": "eslint --fix \"src/**/*.ts\" \"test/**/*.test.ts'\"",
-    "verify": "yarn verify:npmvet && yarn verify:david && yarn verify:nsp && yarn eslint && yarn test",
-    "verify:ci": "yarn verify:npmvet && yarn verify:david && yarn verify:nsp && yarn eslint && yarn test:coverage:ci",
+    "eslint": "eslint \"packages/**/*.js\"",
+    "eslint:fix": "eslint --fix \"packages/**/*.js\"",
+    "verify": "yarn verify:npmvet && yarn verify:david && yarn verify:nsp && yarn test",
+    "verify:ci": "yarn verify:npmvet && yarn verify:david && yarn verify:nsp && yarn test:coverage:ci",
     "verify:npmvet": "npmvet --renderer ci --strict",
     "verify:david": "david",
     "verify:nsp": "nsp check --output summary",
@@ -43,7 +43,7 @@
     "eslint-config-airbnb-base": "13.1.0",
     "eslint-plugin-import": "2.14.0",
     "jest": "23.6.0",
-    "snyk": "^1.115.0"
+    "snyk": "1.115.0"
   },
   "private": true,
   "description": "A dashboard built for status board",
