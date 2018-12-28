@@ -48,7 +48,7 @@
   "private": true,
   "description": "A dashboard built for status board",
   "engines": {
-    "npm": "~2.0.0",
+    "npm": "~2.15.0",
     "node": ">=0.10"
   },
   "config": {
