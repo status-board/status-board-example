@@ -318,10 +318,10 @@
   dependencies:
     "@types/node" "*"
 
-"@types/stylus@0.48.30":
-  version "0.48.30"
-  resolved "https://registry.yarnpkg.com/@types/stylus/-/stylus-0.48.30.tgz#7b6c3a5d80af0ec7321244e41701e674675678e4"
-  integrity sha512-VcBVHKAwx3lm2M63V8g/K6n8D6VP8razrWEDU9T/uNPThiTPMlNrDhNZ+3CpOUX00YzIR5/8PP8C2tXiY0lRqg==
+"@types/stylus@0.48.31":
+  version "0.48.31"
+  resolved "https://registry.yarnpkg.com/@types/stylus/-/stylus-0.48.31.tgz#7675c3f25cac373ec21702694cdd51ca162b659d"
+  integrity sha512-pskI2ZCEcJoDutB84aHIHnsRM3GrjCSXMu9nHSvNJYGlJmzHUZ49ceGX3wshztuvPVM9CZahrJhwlRnU4+Ebbw==
   dependencies:
     "@types/node" "*"
 
@@ -6164,10 +6164,10 @@ static-extend@^0.1.1:
     define-property "^0.2.5"
     object-copy "^0.1.0"
 
-status-board@1.1.56:
-  version "1.1.56"
-  resolved "https://registry.yarnpkg.com/status-board/-/status-board-1.1.56.tgz#ee8784dede04622ce414ca3c0d6fc7fb1c4b067b"
-  integrity sha512-BaOTEWTxLRbMKGWs1/yHR1iBdfZpHud9Z8DeKsQeTpaCOMaHMTC1Wn4t7oXB5n7cFR+4Z587L5I6B9PZuJZVrg==
+status-board@1.1.57:
+  version "1.1.57"
+  resolved "https://registry.yarnpkg.com/status-board/-/status-board-1.1.57.tgz#50bba5a1cfe732508299ffad3b7a8db21b4ec11d"
+  integrity sha512-GBMMRSyVPO/8c6z7wbCfFp6CQJRht/KdYPxpB5I+go6XhOuGHvC4odN+8pvzbLHVj0ntpfIZCeDvUun7WjX0nQ==
   dependencies:
     "@types/async" "2.4.1"
     "@types/body-parser" "1.17.0"
@@ -6184,7 +6184,7 @@ status-board@1.1.56:
     "@types/request" "2.48.1"
     "@types/semver" "5.5.0"
     "@types/socket.io" "2.1.2"
-    "@types/stylus" "0.48.30"
+    "@types/stylus" "0.48.31"
     "@types/traverse" "0.6.32"
     "@types/underscore" "1.8.9"
     "@types/winston" "2.4.4"
