@@ -275,10 +275,10 @@
   dependencies:
     moment ">=2.14.0"
 
-"@types/pg@7.4.12":
-  version "7.4.12"
-  resolved "https://registry.yarnpkg.com/@types/pg/-/pg-7.4.12.tgz#cfdc4d5406f868771580a1d58782cc7e4ef844d1"
-  integrity sha512-P/JedqSnce/8lOzyfo0M0Fm0IAwGWaoRlr3qW5a7ENwIxX4r4tNK+Rhu8edZcty7quYtgRQQqn/9otEqugZR2g==
+"@types/pg@7.4.13":
+  version "7.4.13"
+  resolved "https://registry.yarnpkg.com/@types/pg/-/pg-7.4.13.tgz#4630494096bceee5ee562339502e3448c09703a8"
+  integrity sha512-jk/hFADnywyjnWXZ6IeNsAk2lZtKDInZWGs1ASxmLb3QBpwLDGcSvH5s6IIRlPqsXjwzu8btnNbQ5Cx+AX/CjA==
   dependencies:
     "@types/node" "*"
     "@types/pg-types" "*"
@@ -6164,10 +6164,10 @@ static-extend@^0.1.1:
     define-property "^0.2.5"
     object-copy "^0.1.0"
 
-status-board@1.1.57:
-  version "1.1.57"
-  resolved "https://registry.yarnpkg.com/status-board/-/status-board-1.1.57.tgz#50bba5a1cfe732508299ffad3b7a8db21b4ec11d"
-  integrity sha512-GBMMRSyVPO/8c6z7wbCfFp6CQJRht/KdYPxpB5I+go6XhOuGHvC4odN+8pvzbLHVj0ntpfIZCeDvUun7WjX0nQ==
+status-board@1.1.58:
+  version "1.1.58"
+  resolved "https://registry.yarnpkg.com/status-board/-/status-board-1.1.58.tgz#9ef32ba4837d69a0209433e5d4ef10b579f6012e"
+  integrity sha512-HLEUnviHMN6sVOe3fV3XOLLjrS6ELB/dTFbifxUMCJYGWKxBw/g8DXcNHTYdCKtpfrfh7mP2avF348gmtOX7Ew==
   dependencies:
     "@types/async" "2.4.1"
     "@types/body-parser" "1.17.0"
@@ -6180,7 +6180,7 @@ status-board@1.1.57:
     "@types/method-override" "0.0.31"
     "@types/morgan" "1.7.35"
     "@types/node" "10.0.7"
-    "@types/pg" "7.4.12"
+    "@types/pg" "7.4.13"
     "@types/request" "2.48.1"
     "@types/semver" "5.5.0"
     "@types/socket.io" "2.1.2"
