@@ -183,10 +183,10 @@
   resolved "https://registry.yarnpkg.com/@types/css/-/css-0.0.31.tgz#235cf80e4991a9d769fd640b4b8644b0a4139895"
   integrity sha512-Xt3xp8o0zueqrdIkAOO5gy5YNs+jYfmIUPeoeKiwrcmCRXuNWkIgR2Ph6vHuVfi1y6c9Tx214EQBWPEkU97djw==
 
-"@types/debug@4.1.0":
-  version "4.1.0"
-  resolved "https://registry.yarnpkg.com/@types/debug/-/debug-4.1.0.tgz#f47877eca7cb38bbc94e716c044919bb54075828"
-  integrity sha512-QEYGliFbMQmDLZAcXJS+AbMDtnH0HjvgiALFbWPHsVn9dD75No+/MGEfpLCsAOWKg8WjtQxwfaPbRiq25XLYDw==
+"@types/debug@4.1.1":
+  version "4.1.1"
+  resolved "https://registry.yarnpkg.com/@types/debug/-/debug-4.1.1.tgz#0be64e2fbe7c0bb2a6cad6a152462127a1b0d45a"
+  integrity sha512-OKKcc+Tt1rLMg1DTnmgvWHRna3SN51GWs/ERxpgjFNRjCUUVhGG8FEKeFqVTzBv1jEGFqbkJRWfsHV6KAcLT+A==
 
 "@types/ejs@2.6.2":
   version "2.6.2"
@@ -6164,16 +6164,16 @@ static-extend@^0.1.1:
     define-property "^0.2.5"
     object-copy "^0.1.0"
 
-status-board@1.1.55:
-  version "1.1.55"
-  resolved "https://registry.yarnpkg.com/status-board/-/status-board-1.1.55.tgz#fb9c5cf260ffc55d2477b794a33f348e5cf7883d"
-  integrity sha512-hry/WvOLXI0ec2GSBvtjEWKJyOoYRJCGWIkBtQnJTa7PgkYwfn8Egvbrq+dOx8f/5W9cPa8MkiClCk7lsXDlcQ==
+status-board@1.1.56:
+  version "1.1.56"
+  resolved "https://registry.yarnpkg.com/status-board/-/status-board-1.1.56.tgz#ee8784dede04622ce414ca3c0d6fc7fb1c4b067b"
+  integrity sha512-BaOTEWTxLRbMKGWs1/yHR1iBdfZpHud9Z8DeKsQeTpaCOMaHMTC1Wn4t7oXB5n7cFR+4Z587L5I6B9PZuJZVrg==
   dependencies:
     "@types/async" "2.4.1"
     "@types/body-parser" "1.17.0"
     "@types/compression" "0.0.36"
     "@types/css" "0.0.31"
-    "@types/debug" "4.1.0"
+    "@types/debug" "4.1.1"
     "@types/ejs" "2.6.2"
     "@types/errorhandler" "0.0.32"
     "@types/express" "4.16.1"
