@@ -645,7 +645,7 @@ async@2.6.2:
   dependencies:
     lodash "^4.17.11"
 
-async@^1.4.0, async@~1.5:
+async@^1.4.0:
   version "1.5.2"
   resolved "https://registry.yarnpkg.com/async/-/async-1.5.2.tgz#ec6a61ae56480c0c3cb241c95618e20892f9672a"
   integrity sha1-7GphrlZIDAw8skHJVhjiCJL5Zyo=
@@ -2409,7 +2409,7 @@ get-stream@^4.0.0:
   dependencies:
     pump "^3.0.0"
 
-get-uri@2.0.2, get-uri@^2.0.0:
+get-uri@^2.0.0:
   version "2.0.2"
   resolved "https://registry.yarnpkg.com/get-uri/-/get-uri-2.0.2.tgz#5c795e71326f6ca1286f2fc82575cd2bab2af578"
   integrity sha512-ZD325dMZOgerGqF/rF6vZXyFGTAay62svjQIT+X/oU2PtxYpFxvSkbsdi+oxIrsNxlZVd4y8wUDqkaExWTI/Cw==
@@ -2655,13 +2655,6 @@ has@^1.0.3:
   integrity sha512-f2dvO0VU6Oej7RkWJGrehjbzMAjFp5/VKPp5tTpWIV4JHHZK1/BxbFRtf/siA2SWTe09caDmVtYYzWEIbBS4zw==
   dependencies:
     function-bind "^1.1.1"
-
-hasbin@^1.2.3:
-  version "1.2.3"
-  resolved "https://registry.yarnpkg.com/hasbin/-/hasbin-1.2.3.tgz#78c5926893c80215c2b568ae1fd3fcab7a2696b0"
-  integrity sha1-eMWSaJPIAhXCtWiuH9P8q3omlrA=
-  dependencies:
-    async "~1.5"
 
 hawk@~3.1.0:
   version "3.1.3"
@@ -5920,10 +5913,10 @@ snyk-try-require@^1.1.1:
     lru-cache "^4.0.0"
     then-fs "^2.0.0"
 
-snyk@1.132.0:
-  version "1.132.0"
-  resolved "https://registry.yarnpkg.com/snyk/-/snyk-1.132.0.tgz#a77f0766b6f596ac5f69b28c6c19d4a163515c99"
-  integrity sha512-haU1sPZxjVSWBUzXzkslIxfAXSS+DaQtl3BvR8ZeQ6oRXngwsrxrpG2PZEZ+eWth3I0swL3RfdViXbpUwYFHSQ==
+snyk@1.132.1:
+  version "1.132.1"
+  resolved "https://registry.yarnpkg.com/snyk/-/snyk-1.132.1.tgz#4428cf703dfbd27a93463afb238bd9cb5b2533d2"
+  integrity sha512-N4xN+S41ad5HwDhwtGbJW8C6O9EvnxuRzSSkUDavSIfBilNVhmZndV20u/8MwEY+ky2mqtZDu/PXDMUs0t8dWA==
   dependencies:
     "@snyk/dep-graph" "1.1.2"
     "@snyk/gemfile" "1.1.0"
@@ -5933,8 +5926,6 @@ snyk@1.132.0:
     configstore "^3.1.2"
     debug "^3.1.0"
     diff "^4.0.1"
-    get-uri "2.0.2"
-    hasbin "^1.2.3"
     inquirer "^3.0.0"
     lodash "^4.17.5"
     needle "^2.2.4"
@@ -5963,7 +5954,6 @@ snyk@1.132.0:
     source-map-support "^0.5.9"
     tempfile "^2.0.0"
     then-fs "^2.0.0"
-    undefsafe "^2.0.0"
     update-notifier "^2.5.0"
     uuid "^3.2.1"
 
@@ -6608,13 +6598,6 @@ uglify-js@^3.1.4:
   dependencies:
     commander "~2.17.1"
     source-map "~0.6.1"
-
-undefsafe@^2.0.0:
-  version "2.0.2"
-  resolved "https://registry.yarnpkg.com/undefsafe/-/undefsafe-2.0.2.tgz#225f6b9e0337663e0d8e7cfd686fc2836ccace76"
-  integrity sha1-Il9rngM3Zj4Njnz9aG/Cg2zKznY=
-  dependencies:
-    debug "^2.2.0"
 
 underscore@1.9.1:
   version "1.9.1"
