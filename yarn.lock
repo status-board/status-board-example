@@ -2409,7 +2409,7 @@ get-stream@^4.0.0:
   dependencies:
     pump "^3.0.0"
 
-get-uri@^2.0.0:
+get-uri@2.0.2, get-uri@^2.0.0:
   version "2.0.2"
   resolved "https://registry.yarnpkg.com/get-uri/-/get-uri-2.0.2.tgz#5c795e71326f6ca1286f2fc82575cd2bab2af578"
   integrity sha512-ZD325dMZOgerGqF/rF6vZXyFGTAay62svjQIT+X/oU2PtxYpFxvSkbsdi+oxIrsNxlZVd4y8wUDqkaExWTI/Cw==
@@ -5913,10 +5913,10 @@ snyk-try-require@^1.1.1:
     lru-cache "^4.0.0"
     then-fs "^2.0.0"
 
-snyk@1.132.1:
-  version "1.132.1"
-  resolved "https://registry.yarnpkg.com/snyk/-/snyk-1.132.1.tgz#4428cf703dfbd27a93463afb238bd9cb5b2533d2"
-  integrity sha512-N4xN+S41ad5HwDhwtGbJW8C6O9EvnxuRzSSkUDavSIfBilNVhmZndV20u/8MwEY+ky2mqtZDu/PXDMUs0t8dWA==
+snyk@1.132.2:
+  version "1.132.2"
+  resolved "https://registry.yarnpkg.com/snyk/-/snyk-1.132.2.tgz#bc13daeb7cb5ceb486e7657baa511608c8cbe69d"
+  integrity sha512-p/TzTyhpsLSQQiZAPcds2XdYyEZP965k2cUa4A6wGrHs+K3XwVGNU9kiVkJYEfdseMPzvCVJpPvwIBm6OOujXg==
   dependencies:
     "@snyk/dep-graph" "1.1.2"
     "@snyk/gemfile" "1.1.0"
@@ -5926,6 +5926,7 @@ snyk@1.132.1:
     configstore "^3.1.2"
     debug "^3.1.0"
     diff "^4.0.1"
+    get-uri "2.0.2"
     inquirer "^3.0.0"
     lodash "^4.17.5"
     needle "^2.2.4"
