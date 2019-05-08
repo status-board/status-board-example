@@ -33,7 +33,7 @@
   "homepage": "https://github.com/jameswlane/status-board-example#readme",
   "dependencies": {
     "ical": "0.6.0",
-    "status-board": "1.1.73"
+    "status-board": "1.1.74"
   },
   "devDependencies": {
     "codecov": "3.3.0",
