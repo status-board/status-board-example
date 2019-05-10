@@ -5022,10 +5022,10 @@ pg-types@~2.0.0:
     postgres-date "~1.0.0"
     postgres-interval "^1.1.0"
 
-pg@7.10.0:
-  version "7.10.0"
-  resolved "https://registry.yarnpkg.com/pg/-/pg-7.10.0.tgz#2a359ee29ed1971344ac7f44317a9d1bcd80a8ff"
-  integrity sha512-aE6FZomsyn3OeGv1oM50v7Xu5zR75c15LXdOCwA9GGrfjXsQjzwYpbcTS6OwEMhYfZQS6m/FVU/ilPLiPzJDCw==
+pg@7.11.0:
+  version "7.11.0"
+  resolved "https://registry.yarnpkg.com/pg/-/pg-7.11.0.tgz#a8b9ae9cf19199b7952b72957573d0a9c5e67c0c"
+  integrity sha512-YO4V7vCmEMGoF390LJaFaohWNKaA2ayoQOEZmiHVcAUF+YsRThpf/TaKCgSvsSE7cDm37Q/Cy3Gz41xiX/XjTw==
   dependencies:
     buffer-writer "2.0.0"
     packet-reader "1.0.0"
@@ -6292,10 +6292,10 @@ static-extend@^0.1.1:
     define-property "^0.2.5"
     object-copy "^0.1.0"
 
-status-board@1.1.75:
-  version "1.1.75"
-  resolved "https://registry.yarnpkg.com/status-board/-/status-board-1.1.75.tgz#5cf3887352669e9fd9d5543ea7e4f838f2f1ee60"
-  integrity sha512-k/WSvpVrul2pEmSX4963I8HTRiRg4qXhU5fjie4beZm8id9qdXeTLpLbty4aty7MI55JNB0As9VtQCvJ7cEWCw==
+status-board@1.1.76:
+  version "1.1.76"
+  resolved "https://registry.yarnpkg.com/status-board/-/status-board-1.1.76.tgz#bdf9b376c6015235ac28cdde32f682dbbe7c8efc"
+  integrity sha512-oZonFLDLLbJwhb0/jQ9pO481UICXJouO2YknWD9zA4OoH/xB37uQnSHBBerKTZFhf7wZjNpTsxYTpYhQxPdlLA==
   dependencies:
     "@types/async" "2.4.2"
     "@types/body-parser" "1.17.0"
@@ -6330,7 +6330,7 @@ status-board@1.1.75:
     moment "2.24.0"
     morgan "1.9.1"
     nib "1.1.2"
-    pg "7.10.0"
+    pg "7.11.0"
     read-package-json "2.0.13"
     request "2.88.0"
     semver "6.0.0"
