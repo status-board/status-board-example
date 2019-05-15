@@ -557,10 +557,10 @@
   resolved "https://registry.yarnpkg.com/@types/traverse/-/traverse-0.6.32.tgz#f9fdfa40cd4898deaa975a14511aec731de8235e"
   integrity sha512-RBz2uRZVCXuMg93WD//aTS5B120QlT4lR/gL+935QtGsKHLS6sCtZBaKfWjIfk7ZXv/r8mtGbwjVIee6/3XTow==
 
-"@types/underscore@1.8.16":
-  version "1.8.16"
-  resolved "https://registry.yarnpkg.com/@types/underscore/-/underscore-1.8.16.tgz#c3c9dbca103ce23d057fbedc09892e9560c090ad"
-  integrity sha512-HU8/pQBec/+sxeoPp5tBP7SBS6OsDsmfuSwnOcox+jFKXZP8iQbzOWd3NYM2LeEQD28YxHcxG0iWJcCaSZ+p+Q==
+"@types/underscore@1.8.18":
+  version "1.8.18"
+  resolved "https://registry.yarnpkg.com/@types/underscore/-/underscore-1.8.18.tgz#025371cfe062439aaa088d2b64af87cbcfe3c2b7"
+  integrity sha512-mXQ8u416FWMPjp2zWrcVmOZtzKQM6IeyVcuE+RGF/04JLBrMjfnmNKn74VN8fIkFzU97TpzkP0ny0p0h65eC7w==
 
 "@types/winston@2.4.4":
   version "2.4.4"
@@ -6292,10 +6292,10 @@ static-extend@^0.1.1:
     define-property "^0.2.5"
     object-copy "^0.1.0"
 
-status-board@1.1.77:
-  version "1.1.77"
-  resolved "https://registry.yarnpkg.com/status-board/-/status-board-1.1.77.tgz#10a165fdaf45cbc4e6c50fcbb813a602722d3271"
-  integrity sha512-K96CKgQ+PD5HAPTYIp9rfNLyV+WCzaBy1GMfVUlRZ6vmEB61t5EKueNrG4o1t7zDn9pOtBFn8dgDcToxAkkwBQ==
+status-board@1.1.78:
+  version "1.1.78"
+  resolved "https://registry.yarnpkg.com/status-board/-/status-board-1.1.78.tgz#0a8c985de59cd703dd36fdb25d556b646200196d"
+  integrity sha512-rLbaDAPri8bHPNk6yE8HqnNafpEoisllQrfdlU+RJ28K0bYoyHWnjaYbFbeL+kISxnFmnUUk1FWSuLaxk+zMfQ==
   dependencies:
     "@types/async" "2.4.2"
     "@types/body-parser" "1.17.0"
@@ -6314,7 +6314,7 @@ status-board@1.1.77:
     "@types/socket.io" "2.1.2"
     "@types/stylus" "0.48.31"
     "@types/traverse" "0.6.32"
-    "@types/underscore" "1.8.16"
+    "@types/underscore" "1.8.18"
     "@types/winston" "2.4.4"
     "@types/xtend" "4.0.2"
     async "2.6.2"
