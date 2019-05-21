@@ -6035,10 +6035,10 @@ snyk-try-require@^1.1.1:
     lru-cache "^4.0.0"
     then-fs "^2.0.0"
 
-snyk@1.165.2:
-  version "1.165.2"
-  resolved "https://registry.yarnpkg.com/snyk/-/snyk-1.165.2.tgz#251c392bb246307914df0e8ee568f41ef71ba907"
-  integrity sha512-ltpOj05P08xCw6wZI3kXfDTCHwtS/vO6U5pSEBVcueWPL6rn8NHBq1XB6lWBgdwyWBAtw9jKHGdzIOFNBhm1lQ==
+snyk@1.166.0:
+  version "1.166.0"
+  resolved "https://registry.yarnpkg.com/snyk/-/snyk-1.166.0.tgz#1d7754aa401855dbaf36df9c803c855716875785"
+  integrity sha512-vDXIJj5doj5HWL67Lin/Ciaozzy6q/0Y5yw40hd3FIwGQs+fis4euUUKynmJjH0HMs9dBiAFJkyhy7XiHMATcw==
   dependencies:
     "@snyk/dep-graph" "1.4.1"
     "@snyk/gemfile" "1.2.0"
