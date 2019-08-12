@@ -40,7 +40,7 @@
     "coveralls": "3.0.6",
     "cz-conventional-changelog": "2.1.0",
     "eslint": "5.16.0",
-    "eslint-config-airbnb-base": "13.2.0",
+    "eslint-config-airbnb-base": "14.0.0",
     "eslint-plugin-import": "2.18.2",
     "jest": "24.8.0",
     "snyk": "1.216.0"
