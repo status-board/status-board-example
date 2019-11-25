@@ -37,7 +37,7 @@
   },
   "devDependencies": {
     "codecov": "3.6.1",
-    "coveralls": "3.0.7",
+    "coveralls": "3.0.8",
     "cz-conventional-changelog": "3.0.2",
     "eslint": "5.16.0",
     "eslint-config-airbnb-base": "14.0.0",
