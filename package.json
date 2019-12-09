@@ -41,7 +41,7 @@
     "cz-conventional-changelog": "3.0.2",
     "eslint": "5.16.0",
     "eslint-config-airbnb-base": "14.0.0",
-    "eslint-plugin-import": "2.18.2",
+    "eslint-plugin-import": "2.19.1",
     "jest": "24.9.0",
     "snyk": "1.258.1"
   },
