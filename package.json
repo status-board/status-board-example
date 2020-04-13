@@ -42,7 +42,7 @@
     "eslint": "5.16.0",
     "eslint-config-airbnb-base": "14.1.0",
     "eslint-plugin-import": "2.20.2",
-    "jest": "24.9.0",
+    "jest": "25.3.0",
     "snyk": "1.305.1"
   },
   "private": true,
