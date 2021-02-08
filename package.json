@@ -43,7 +43,7 @@
     "eslint-config-airbnb-base": "14.2.1",
     "eslint-plugin-import": "2.22.1",
     "jest": "24.9.0",
-    "snyk": "1.440.2"
+    "snyk": "1.446.0"
   },
   "private": true,
   "description": "A dashboard built for status board",
